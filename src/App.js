@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./css/bootstrap.min.css";
-import "./css/App.css";
+import "./assets/css/bootstrap.min.css";
+import "./assets/css/App.css";
 import { Route, BrowserRouter, Switch, Redirect } from "react-router-dom";
-import { Login } from "./screens";
+import { Login, SignUp } from "./screens";
 
 class App extends Component {
   render() {
@@ -14,6 +14,7 @@ class App extends Component {
             <Route path="/login" component={Login} />
             <Route path="/dashboard" component={Dashboard} />
             <Route path="/" component={() => <Redirect to="/login" />} />*/}
+            <Route path="/signup" component={SignUp} />
             <Route path="/" component={Login} />
           </Switch>
         </div>
