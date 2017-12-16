@@ -3,7 +3,8 @@ import Layout from "antd/lib/layout";
 import Menu from "antd/lib/menu";
 import Icon from "antd/lib/icon";
 import { connect } from "react-redux";
-import { View, Image, Text } from "react-native-web";
+import { View, Image, Text, TouchableWithoutFeedback } from "react-native-web";
+import { onChangeContentAction } from "../../actions";
 import styles from "./style";
 
 const { Sider } = Layout;
@@ -19,13 +20,19 @@ const options = [
 
 class SideBar extends Component {
   renderOptions() {
+    //actions
+    const { onChangeContentAction } = this.props;
     return options.map((option, key) => {
       return (
         <Menu.Item key={key}>
-          <View style={styles.optionsView_sider}>
-            <Icon type={option.icon_type} />
-            <span>{option.menu}</span>
-          </View>
+          <TouchableWithoutFeedback
+            onPress={() => onChangeContentAction(option.menu)}
+          >
+            <View style={styles.optionsView_sider}>
+              <Icon type={option.icon_type} />
+              <span>{option.menu}</span>
+            </View>
+          </TouchableWithoutFeedback>
         </Menu.Item>
       );
     });
@@ -61,4 +68,4 @@ const mapStateToProps = state => {
   return { collapsed };
 };
 
-export default connect(mapStateToProps, {})(SideBar);
+export default connect(mapStateToProps, { onChangeContentAction })(SideBar);

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import message from "antd/lib/message";
 import Layout from "antd/lib/layout";
-import { SideBar, HeadBar } from "../components/Base";
+import { SideBar, HeadBar, CustomContent } from "../components/Base";
 
 const { Header, Footer, Content } = Layout;
 
@@ -14,11 +14,11 @@ class Base extends Component {
   }
   render() {
     return (
-      <Layout style={{ minHeight: '100vh' }}>
+      <Layout style={{ minHeight: "100vh" }}>
         <SideBar />
         <Layout>
           <HeadBar />
-          <Content>Content</Content>
+          <CustomContent />
         </Layout>
       </Layout>
     );

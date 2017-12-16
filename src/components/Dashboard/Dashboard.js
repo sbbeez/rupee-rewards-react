@@ -1,9 +1,17 @@
 import React, { Component } from "react";
-import { View } from "react-native-web";
+import { View, Text } from "react-native-web";
 
 class Dashboard extends Component {
   render() {
-    return <View />;
+    return (
+      <View>
+        <Text>Dashboard</Text>
+        <Text>Dashboard</Text>
+        <Text>Dashboard</Text>
+        <Text>Dashboard</Text>
+        <Text>Dashboard</Text>
+      </View>
+    );
   }
 }
 export default Dashboard;
