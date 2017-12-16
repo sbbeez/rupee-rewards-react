@@ -1,4 +1,6 @@
 export default {
   headerColor: "#DDD",
-  white: "#FFFFFF"
+  white: "#FFFFFF",
+  black: "#000000",
+  red: "EE0101"
 };
