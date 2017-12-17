@@ -3,7 +3,6 @@ import message from "antd/lib/message";
 import Layout from "antd/lib/layout";
 import { SideBar, HeadBar, CustomContent } from "../components/Base";
 
-const { Header, Footer, Content } = Layout;
 
 class Base extends Component {
   componentWillMount() {

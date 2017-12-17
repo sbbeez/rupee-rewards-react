@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Layout from "antd/lib/layout";
-import Icon from "antd/lib/icon";
 import { connect } from "react-redux";
 import { onCollapseClickedAction } from "../../actions";
 import { View, TouchableOpacity, Image, Text } from "react-native-web";
