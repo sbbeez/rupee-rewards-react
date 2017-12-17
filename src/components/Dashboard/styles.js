@@ -1,12 +1,13 @@
-const valueText = { fontSize: 25, fontWeight: "bold", color: "#FFF" };
+import colors from "../../utils/colors";
+const valueText = { fontSize: 25, fontWeight: "bold", color: colors.white };
 export default {
   cardDataView: {
     flexDirection: "row",
-    backgroundColor: "#1890FF",
+    backgroundColor: colors.themeBlue,
     height: 100,
     borderRadius: 10,
-    borderWidth: 1,
-    borderColor: "#098",
+    borderWidth: 2,
+    borderColor: colors.themeDarkBlue,
     margin: 20,
     padding: 30
   },
