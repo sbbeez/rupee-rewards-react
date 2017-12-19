@@ -13,7 +13,7 @@ class CustomContent extends Component {
   renderContent() {
     switch (this.props.content) {
       case "Dashboard":
-        return <Dashboard />;
+        return <Dashboard navigation={this.props.navigation} />;
       case "Analytics":
         return <Analytics />;
       case "Settings":

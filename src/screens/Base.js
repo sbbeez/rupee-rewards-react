@@ -3,7 +3,6 @@ import message from "antd/lib/message";
 import Layout from "antd/lib/layout";
 import { SideBar, HeadBar, CustomContent } from "../components/Base";
 
-
 class Base extends Component {
   componentWillMount() {
     if (!localStorage.getItem("access_token")) {
@@ -17,7 +16,7 @@ class Base extends Component {
         <SideBar />
         <Layout>
           <HeadBar />
-          <CustomContent />
+          <CustomContent navigation={this.props} />
         </Layout>
       </Layout>
     );

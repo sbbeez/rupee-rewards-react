@@ -14,5 +14,22 @@ export default {
   cardImage: { width: 50, height: 50 },
   valueText,
   cardHeadingText: { ...valueText, fontSize: 10 },
-  textView: { flex: 1, alignItems: "center" }
+  textView: { flex: 1, alignItems: "center" },
+  legendBox: {
+    backgroundColor: colors.themeBlueOne,
+    width: 30,
+    height: 30
+  },
+  legendView: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "flex-end"
+  },
+  profileViews: {
+    width: 600,
+    margin: 30,
+    backgroundColor: colors.white,
+    height: 400
+  },
+  recentSignUpImage: { width: 80, height: 80, borderRadius: 100 }
 };
