@@ -27,6 +27,48 @@ body {
 .align-left {
   align-items: left;
 }
+.center {
+  text-align: center;
+}
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto;
+  width: ;
+}
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.center-align: {
+  align-items: center;
+  text-align: center;
+}
+
+.circle {
+  background: #f00;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
 
 #components-layout-demo-custom-trigger .trigger {
   font-size: 18px;

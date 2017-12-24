@@ -20,7 +20,7 @@ class HeadBar extends Component {
     //actions
     const { onCollapseClickedAction } = this.props;
     return (
-      <Header style={{ background: "#fff", padding: 0 }}>
+      <Header style={{ background: colors.headerColor, padding: 0 }}>
         <Row>
           <Col span={8}>
             <View style={{ width: 30, height: 30, margin: 20 }}>
