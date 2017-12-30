@@ -7,5 +7,5 @@ export default {
   themeDarkBlue: "#00152A",
   themeBlueOne: "#28A0FF",
   themeDarkBlueOne: "#10253A",
-  secondaryColor: "#07A0C3"
+  secondaryColor: "#AABA9E"
 };

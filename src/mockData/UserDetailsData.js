@@ -3,10 +3,10 @@ export default {
   email: "senthil.g.balaji@gmail.com",
   gender: "male",
   phone: "9750187663",
-  is_phone_verfied: true,
+  is_phone_verfied: false,
   token:
     "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiI1OWZhMTYyYmJmZjM5MzJjMTg4NjAwOWQifQ.6wtKS34Doysu3BXIeTYHjNAUd2VBYcIG_8B6Y3kZNe4",
-  date_of_birth: "04-03-1996",
+  age: 21,
   amount_earned: 200,
   last_active: "04-12-2017 12.53PM",
   ads_watched: 190,

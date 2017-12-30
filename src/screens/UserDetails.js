@@ -1,17 +1,20 @@
 import React, { Component } from "react";
 import { Header } from "../components/common";
-import { View, Image } from "react-native-web";
+import { View, Image, Text } from "react-native-web";
 import styles from "../components/UserDetails/styles";
 import { connect } from "react-redux";
 import { fetchUserDetailsAction } from "../actions";
-import { ActivityIndicatorSpinner } from "../components/common";
+import {
+  ActivityIndicatorSpinner,
+  DetailsText,
+  UserPic,
+  DataCard
+} from "../components/common";
+
+//ant design imports
 import Row from "antd/lib/row";
 import Col from "antd/lib/col";
-
-const genderImages = {
-  male: require("../assets/images/male_icon.png"),
-  female: require("../assets/images/female_icon.png")
-};
+import Button from "antd/lib/button";
 
 class UserDetails extends Component {
   componentDidMount() {
@@ -29,10 +32,42 @@ class UserDetails extends Component {
           <ActivityIndicatorSpinner />
         ) : (
           <View style={styles.userDetailsView}>
-            <Image
-              source={genderImages[userDetails.gender]}
-              style={{ width: 50, height: 50 }}
+            <UserPic
+              gender={userDetails.gender}
+              verified={userDetails.is_phone_verfied}
             />
+            <View style={{ flex: 1,flexDirection:"row", alignItems:"space-between" }}>
+              <DataCard
+                value={userDetails.amount_earned}
+                title={"Amount Earned"}
+                image={"rupee_white"}
+              />
+              <DataCard
+                value={userDetails.last_active}
+                title={"Last Active"}
+                image={"active_users"}
+              />
+              <DataCard
+                value={userDetails.ads_watched}
+                title={"Ads watched"}
+                image={"total_ads_watched"}
+              />
+            </View>
+            <View
+              style={{ flexDirection: "row", marginTop: 20, marginBottom: 20 }}
+            >
+              <View style={{ margin: 20 }}>
+                <Button type="primary">Payout</Button>
+              </View>
+              <View style={{ margin: 20 }}>
+                <Button type="danger">Block</Button>
+              </View>
+            </View>
+            <DetailsText text={userDetails.name} field={"Name"} />
+            <DetailsText text={userDetails.email} field={"Email"} />
+            <DetailsText text={userDetails.phone} field={"Phone Number"} />
+            <DetailsText text={userDetails.age} field={"Age"} />
+            <DetailsText text={userDetails.token} field={"Token"} />
           </View>
         )}
       </div>
