@@ -2,12 +2,14 @@
   "name": "rupee-rewards-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://senthilbalajiganesan.github.io/rupee-rewards-react",
   "dependencies": {
     "antd": "^3.0.1",
     "copy-to-clipboard": "^3.0.8",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
-    "react-native-web": "^0.1.16",
+    "react": "^16.7.0",
+    "react-art": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-native-web": "^0.9.10",
     "react-redux": "^5.0.6",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
@@ -19,6 +21,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

@@ -5,7 +5,8 @@ import message from "antd/lib/message";
 
 export const onLoginAction = (email, password, history) => {
   return async dispatch => {
-    const token = await postRequest(POST_LOGIN, { email, password });
+    let token = "some token placed here";
+    //const token = await postRequest(POST_LOGIN, { email, password });
     if (token) {
       localStorage.setItem("access_token", token.token);
       history.replace("/dashboard");

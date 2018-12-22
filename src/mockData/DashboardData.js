@@ -36,73 +36,73 @@ export default {
   },
   recent_sign_ups: [
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
@@ -110,73 +110,73 @@ export default {
   ],
   active_users_details: [
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
     },
     {
-      name: "senthil",
+      name: "name places",
       pro_pic_url:
         "https://i.pinimg.com/736x/60/e0/3b/60e03b25d0829ec560b3f472e84cd23a--profile-picture-ideas-profile-pictures.jpg",
       id: "1"
