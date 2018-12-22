@@ -2,7 +2,7 @@
   "name": "rupee-rewards-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://senthilbalajiganesan.github.io/rupee-rewards-react",
+  "homepage": "http://senthilbalajiganesan.github.io/rupee-rewards",
   "dependencies": {
     "antd": "^3.0.1",
     "copy-to-clipboard": "^3.0.8",
