@@ -36,7 +36,7 @@ class UserDetails extends Component {
               gender={userDetails.gender}
               verified={userDetails.is_phone_verfied}
             />
-            <View style={{ flex: 1,flexDirection:"row", alignItems:"space-between" }}>
+            <View style={{ flex: 1,flexDirection:"row", alignItems:"center" }}>
               <DataCard
                 value={userDetails.amount_earned}
                 title={"Amount Earned"}

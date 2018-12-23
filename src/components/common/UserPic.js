@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Image, Text, View } from "react-native";
+import { Image, Text, View, ImageBackground } from "react-native";
 import Images from "../../utils/Images";
 
 export default props => {
   return (
-    <Image
+    <ImageBackground
       style={styles.image}
       source={props.gender === "male" ? Images.male : Images.female}
     >
@@ -12,7 +12,7 @@ export default props => {
         style={styles.verifiedImage}
         source={props.verified ? Images.green_tick : Images.red_wrong}
       />
-    </Image>
+    </ImageBackground>
   );
 };
 
